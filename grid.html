@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <div class="grid grid-cols-4 gap-2">
+        <div class="bg-green-500">item1</div>  
+        <div class="bg-pink-300">item2</div>
+        <!-- sub item -->
+         <div class="grid grid-rows-subgrid bg-red-700 grid-cols-2">
+            <div class="w-1">item1</div>
+            <div class="w-2"> item2</div>
+         </div>
+        <div class="bg-red-300">item3</div>
+        <div class="bg-green-300">item4</div>
+    </div>
+    <br> <br>
+        <!-- auto flow row -->
+         <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-1">
+            <div class="col-span-2 bg-blue-500">01</div>
+            <div class="col-span-2 bg-orange-700" >02</div>
+            <div class="bg-amber-700">03</div>
+            <div class="bg-amber-400">04</div>
+            <div class="bg-green-500">05</div>
+         </div>
+    <!-- justify content -->
+        <div class="flex justify-between bg-gray-400 p-2 mt-5">
+            <div class="w-30     bg-green-600">01</div>
+            <div class="w-30 bg-red-500">02</div>
+            <div class="w-30 bg-amber-500">03</div>
+        </div>
+
+    <!-- responsive -->
+     <h2>grid with responsive</h2>
+     <div class="grid bg-sky-400 sm:grid-cols-4 ">
+        <div class="bg-amber-200">1111</div>
+        <div class="bg-amber-500">2222</div>
+        <div class="bg-amber-700">3333</div>
+        <div class="bg-green-500">4444</div>
+     </div>
+
+     <div class="grid grid-cols-3 gap-2">
+        <p class="border-4 rounded-2xl w-100 text-justify bg-sky-50 p-5 mt-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni maxime quis perspiciatis quas. Et, eos obcaecati eum, quod sunt odio rerum aut laudantium mollitia assumenda omnis voluptate provident distinctio? Dolorum error, ducimus, nisi possimus minus illo quibusdam ea odit rerum suscipit alias! Corrupti eum alias saepe nulla obcaecati recusandae a, pariatur labore quidem dicta mollitia qui amet, optio deserunt natus delectus numquam. Quos perspiciatis, quae dicta, ullam in delectus tempora, beatae autem eveniet maxime temporibus quidem quod officia sunt accusantium id. Eos, repudiandae eum ab minus quo, odio accusantium atque provident sint cum reprehenderit odit ea velit ipsa dicta impedit.</p>
+        <p class="border-4 rounded-2xl w-100 text-justify bg-gray-500 p-5 mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni maxime quis perspiciatis quas. Et, eos obcaecati eum, quod sunt odio rerum aut laudantium mollitia assumenda omnis voluptate provident distinctio? Dolorum error, ducimus, nisi possimus minus illo quibusdam ea odit rerum suscipit alias! Corrupti eum alias saepe nulla obcaecati recusandae a, pariatur labore quidem dicta mollitia qui amet, optio deserunt natus delectus numquam. Quos perspiciatis, quae dicta, ullam in delectus tempora, beatae autem eveniet maxime temporibus quidem quod officia sunt accusantium id. Eos, repudiandae eum ab minus quo, odio accusantium atque provident sint cum reprehenderit odit ea velit ipsa dicta impedit.</p>
+        <p class="border-4 rounded-2xl w-100 text-justify bg-pink-500 p-5 mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni maxime quis perspiciatis quas. Et, eos obcaecati eum, quod sunt odio rerum aut laudantium mollitia assumenda omnis voluptate provident distinctio? Dolorum error, ducimus, nisi possimus minus illo quibusdam ea odit rerum suscipit alias! Corrupti eum alias saepe nulla obcaecati recusandae a, pariatur labore quidem dicta mollitia qui amet, optio deserunt natus delectus numquam. Quos perspiciatis, quae dicta, ullam in delectus tempora, beatae autem eveniet maxime temporibus quidem quod officia sunt accusantium id. Eos, repudiandae eum ab minus quo, odio accusantium atque provident sint cum reprehenderit odit ea velit ipsa dicta impedit.</p>
+        <p class="border-4 rounded-2xl w-100 text-justify bg-sky-50 p-5 mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni maxime quis perspiciatis quas. Et, eos obcaecati eum, quod sunt odio rerum aut laudantium mollitia assumenda omnis voluptate provident distinctio? Dolorum error, ducimus, nisi possimus minus illo quibusdam ea odit rerum suscipit alias! Corrupti eum alias saepe nulla obcaecati recusandae a, pariatur labore quidem dicta mollitia qui amet, optio deserunt natus delectus numquam. Quos perspiciatis, quae dicta, ullam in delectus tempora, beatae autem eveniet maxime temporibus quidem quod officia sunt accusantium id. Eos, repudiandae eum ab minus quo, odio accusantium atque provident sint cum reprehenderit odit ea velit ipsa dicta impedit.</p>
+    
+     </div>
+     
+</body>
+</html>
